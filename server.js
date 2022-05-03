@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Config Express Routes
-const movieRoutes = require('./api/items/movie.routes')
+const movieRoutes = require('./api/movie/movie.routes')
 
 app.use('/api/movie', movieRoutes)
 
